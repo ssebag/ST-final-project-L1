@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/images/Logo.png">
+    <title>Organick</title>
+</head>
+
+<body>
+    <!--=====================================header=====================================-->
+    <header>
+        <!--=====================================sidebar=====================================-->
+        <div class="sidebar" id="navbar">
+            <!--=====================================top-sidebar=====================================-->
+            <div class="top-sidebar flex just-between w-100 border-sidebar padding-sidebar">
+                <!--===shopping-cart===-->
+                <div class="shopping-cart dark bg-white flex-center radius-33 ">
+                    <div class="cart-icon bg-black flex-center circle-radius w-h-35 pointer">
+                        <img src="./assets/images/cart icon.svg" alt="cart">
+                    </div>
+                    <span>(0)</span>
+                    <!--====close-sidebar====-->
+                </div> <span id="close" class="close-sidebar text-right"><i
+                        class="fa-solid fa-xmark green pointer"></i></span>
+            </div>
+            <!--============sidebar searh-box========-->
+            <div class="sidebar-search-box border-sidebar padding-sidebar">
+                <div class="search-box bg-ddd flex just-end text-right radius-33  ">
+                    <input class="bg-ddd radius-33 outline-none border-none " type="text" placeholder="Search">
+                    <div class="search-icon white bg-green flex-center w-h-35  circle-radius  pointer">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+            <!--===============change between pages=================-->
+            <a class="active" href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="service.html">Services</a>
+            <a href="shop.html">Shop</a>
+            <a href="team.html">Our Team</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <!--=====================================navbar=====================================-->
+        <nav class="bg-white flex just-between align-items-center w-100">
+            <!--=====================================left-navbar=====================================-->
+            <!--===logo====-->
+            <div class="left-nav flex align-items-center">
+                <img src="./assets/images/Logo.png" alt="logo">
+                <span class="Roboto blue fs-32 fw-700">Organick</span>
+            </div>
+            <!--=========================center navbar >> page links==========================-->
+            <ul class="flex align-items-center none list-none">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="team.html" class="white-space">Our Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!--=====================================right navbar=====================================-->
+            <div class="right-nav flex none">
+                <!--======navbar search box========-->
+                <div class="search-box flex just-end text-right radius-33 ">
+                    <div class="search-icon white bg-green flex-center w-h-35 circle-radius ">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <!--============navbar shopping-cart=========-->
+                <div class="shopping-cart dark flex-center radius-33 ">
+                    <div class="cart-icon bg-black flex-center w-h-35 circle-radius">
+                        <img src="./assets/images/cart icon.svg" alt="cart">
+                    </div>
+                    <span>(0)</span>
+                </div>
+            </div>
+            <!--=====================================navbar bar=====================================-->
+            <div class="list hidden">
+                <button id="bar" class="green border-none pointer">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+        <!--=====================================hero=====================================-->
+        <div class="home-header-hero container m-text-center w-100 h-100">
+            <!--=================hero-text==================-->
+            <div class="home-header-text">
+                <p class=" Yellowtail green fs-25">100% Natural Food</p>
+                <h1 class="Roboto dark fs-55 fw-900">Choose the best healthier way<br>of life</h1>
+                <button class="Roboto dark bg-yellow flex align-items-center fs-16 fw-700 border-none pointer ">Explore
+                    Now <img src="./assets/images/Aerrow1.svg" alt="arrow" class="bg-dark circle-radius"></a></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--======================================section-1=====================================-->
+        <section class="section-1 container bg-white flex  relative">
+            <!--=====================section-1 div-1=====================-->
+            <div class="sec1-div1 relative">
+                <img src="./assets/images/sec1-image1.jpg" alt="" class="w-100">
+                <div class="text white">
+                    <p class="Yellowtail fs-30">Natural!!</p>
+                    <h1 class="Roboto fs-40 fw-900">Get Garden Fresh Fruits</h1>
+                </div>
+            </div>
+            <!--=====================section-1 div-2=====================-->
+            <div class="sec1-div2 relative">
+                <img src="./assets/images/sec2-image2.jpg" alt="" class="w-100">
+                <div class="text">
+                    <p class="Yellowtail green fs-30">Offer!!</p>
+                    <h1 class="Roboto dark fs-40 fw-900">Get 10% off on Vegetables</h1>
+                </div>
+            </div>
+        </section>
+        <!--=======================================section two=============================================-->
+        <section class="section-two w-100 ">
+            <div class="total w-100 relative">
+                <div class="container-s-2 flex-center flex-direction align-start ">
+                    <!--main-text-section-2-->
+                    <div class="text-s-2">
+                        <h1 class="title-sm">About Us</h1>
+                        <h2 class="title-big">We Believe in Working<br> Accredited Farmers</h2>
+                        <p class="text-p">Simply dummy text of the printing and typesetting industry. Lorem had ceased
+                            <br>to <br>
+                            been the industry's standard dummy text ever since the 1500s, when an<br> unknown printer
+                            took a
+                            galley.
+                        </p>
+                    </div>
+                    <div class="icon-s-2 flex-center align-end flex-direction ">
+                        <!-- food -->
+                        <div class="food flex-center just-start ">
+                            <img src="./assets/images/Icon1.svg" alt="veganfood-section-2">
+                            <div class="text-food">
+                                <h1 class="title-big fs-20 fw-800">Organic Foods Only</h1>
+                                <p class="text-p">Simply dummy text of the printing and typesetting industry.<br> Lorem
+                                    Ipsum</p>
+                            </div>
+                        </div>
+                        <!-- standrad -->
+                        <div class="standard flex-center just-start ">
+                            <img src="./assets/images/Icon.svg" alt="massage">
+                            <div class="text-standard">
+                                <h1 class="title-big fs-20 fw-800">Quality Standards</h1>
+                                <p class="text-p">Simply dummy text of the printing and typesetting industry.<br> Lorem
+                                    Ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--=====button====-->
+                    <div class="button-s-2">
+                        <button class="buttons border-none Roboto white ">Shop Now <img src="./assets/images/Aerrow.svg"
+                                alt="Aerrow"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================================================section three=======================================-->
+        <section class="section-three">
+            <div class="contener-section-three w-100">
+                <!--=======================================title section three========================================-->
+                <div class="title-section-three text-center">
+                    <h6 class="title-sm">Categories</h6>
+                    <h1 class="title-big">Our Products</h1>
+                </div>
+                <!--==========================================contener for cards================================-->
+                <div class="contener-card flex-center">
+                    <!--broccli-card-->
+                    <div class="card-section">
+                        <div class="top-title">Vegetable</div>
+                        <div class="img-s-3 text-center">
+                            <img class="img-product" src="./assets/images/broccoli.png" alt="proccoli" />
+                        </div>
+                        <div class="Product-Name-section-3 Roboto fw-700 dark">Calabrese Broccoli</div>
+                        <div class="contener-bottom flex-center just-between">
+                            <div class="price-s-3   ">
+                                <del class="Open-Sans fw-400 grey">$20.00</del>
+                                <p class="Open-Sans fw-900 dark">$13.00</p>
+                            </div>
+                            <img src="./assets/images/Star.png" alt="Star" />
+                        </div>
+                    </div>
+                    <!--tomato-card-->
+                    <div class="card-section">
+                        <div class="top-title">Vegetable</div>
+                        <div class="img-s-3 text-center">
+                            <img class="img-product" src="./assets/images/tomato.png" alt="tomato" />
+                        </div>
+                        <div class="Product-Name-section-3 Roboto fw-700 dark">Vegan Red Tomato</div>
+                        <div class="contener-bottom flex-center just-between">
+                            <div class="price-s-3">
+                                <del class="Open-Sans fw-400 grey">$20.00</del>
+                                <p class="Open-Sans fw-900 dark">$17.00</p>
+                            </div>
+                            <img src="./assets/images/Star.png" alt="Star" />
+                        </div>
+                    </div>
+                    <!--White-Nuts-card-->
+                    <div class="card-section">
+                        <div class="top-title">Millets</div>
+                        <div class="img-s-3 text-center">
+                            <img class="img-product" src="./assets/images/White Nuts.png" alt="White Nuts" />
+                        </div>
+                        <div class="Product-Name-section-3 Roboto fw-700 dark">White Nuts</div>
+                        <div class="contener-bottom flex-center just-between">
+                            <div class="price-s-3">
+                                <del class="Open-Sans fw-400 grey">$20.00</del>
+                                <p class="Open-Sans fw-900 dark">$15.00</p>
+                            </div>
+                            <img src="./assets/images/Star.png" alt="Star" />
+                        </div>
+                    </div>
+                    <!--Banana-card-->
+                    <div class="card-section">
+                        <div class="top-title">Fresh</div>
+                        <div class="img-s-3 text-center">
+                            <img class="img-product" src="./assets/images/banana.png" alt="banana" />
+                        </div>
+                        <div class="Product-Name-section-3 Roboto fw-700 dark">Fresh Banana Fruites</div>
+                        <div class="contener-bottom flex-center just-between">
+                            <div class="price-s-3">
+                                <del class="Open-Sans fw-400 grey">$20.00</del>
+                                <p class="Open-Sans fw-900 dark">$14.00</p>
+                            </div>
+                            <img src="./assets/images/Star.png" alt="Star" />
+                        </div>
+                    </div>
+                    <!--Bean-card-->
+                    <div class="card-section">
+                        <div class="top-title">Health</div>
+                        <div class="img-s-3 text-center">
+                            <img class="img-product" src="./assets/images/bean.png" alt="Mung Bean" />
+                        </div>
+                        <div class="Product-Name-section-3 Roboto fw-700 dark">Mung Bean</div>
+                        <div class="contener-bottom flex-center just-between">
+                            <div class="price-s-3">
+                                <del class="Open-Sans fw-400 grey">$20.00</del>
+                                <p class="Open-Sans fw-900 dark">$11.00</p>
+                            </div>
+                            <img src="./assets/images/Star.png" alt="Star" />
+                        </div>
+                    </div>
+                    <!--Hazelnuts-card-->
+                    <div class="card-section">
+                        <div class="top-title">Nuts</div>
+                        <div class="img-s-3 text-center">
+                            <img class="img-product" src="./assets/images/hazelunt.png" alt="Nuts" />
+                        </div>
+                        <div class="Product-Name-section-3 Roboto fw-700 dark">Brown Hazelnut</div>
+                        <div class="contener-bottom flex-center just-between">
+                            <div class="price-s-3">
+                                <del class="Open-Sans fw-400 grey">$20.00</del>
+                                <p class="Open-Sans fw-900 dark">$12.00</p>
+                            </div>
+                            <img src="./assets/images/Star.png" alt="Star" />
+                        </div>
+                    </div>
+                    <!--Eggs-card-->
+                    <div class="card-section">
+                        <div class="top-title">Fresh</div>
+                        <div class="img-s-3 text-center">
+                            <img class="img-product" src="./assets/images/eggs.png" alt="Eggs" />
+                        </div>
+                        <div class="Product-Name-section-3 Roboto fw-700 dark">Eggs</div>
+                        <div class="contener-bottom flex-center just-between">
+                            <div class="price-s-3">
+                                <del class="Open-Sans fw-400 grey">$20.00</del>
+                                <p class="Open-Sans fw-900 dark">$17.00</p>
+                            </div>
+                            <img src="./assets/images/Star.png" alt="Star" />
+                        </div>
+                    </div>
+                    <!--Rusk-card-->
+                    <div class="card-section">
+                        <div class="top-title">Fresh</div>
+                        <div class="img-s-3 text-center">
+                            <img class="img-product" src="./assets/images/Zelco Suji Elaichi Rusk.png"
+                                alt="Zelco Suji Elaichi Rusk" />
+                        </div>
+                        <div class="Product-Name-section-3 Roboto fw-700 dark">Zelco Suji Elaichi Rusk</div>
+                        <div class="contener-bottom flex-center just-between">
+                            <div class="price-s-3">
+                                <del class="Open-Sans fw-400 grey">$20.00</del>
+                                <p class="Open-Sans fw-900 dark">$15.00</p>
+                            </div>
+                            <img src="./assets/images/Star.png" alt="Star" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--===button section-three===-->
+            <button class="sec-3-button buttons white fs-16 fw-700 Roboto border-none flex-center align-center"
+                type="button"><span>Load
+                    More </span> <img class="" src="./assets/images/Aerrow.png" alt="Aerrow" /></button>
+        </section>
+        <!--==============================================section-4===============================================-->
+        <section class="section-four w-100">
+            <div class="card-section-4">
+                <!--==main-title section-4==-->
+                <div class="Upper-title w-100">
+                    <div class="Upper-title-2 flex-center just-between">
+                        <div class="text-section-4">
+                            <h1 class="title-sm">offer</h1>
+                            <h2 class="title-big white">We Offer Organic For You</h2>
+                        </div>
+                        <!--====button section four=====-->
+                        <button class="buttons bg-yellow dark border-none white-space fs-16 fw-700"> View All Product
+                            <img class=" Aerrow" src="./assets/images/Aerrow.png" alt="Aerrow" /></button>
+                    </div>
+                </div>
+                <!--======contener-card-section-four ===========--->
+                <div class="contener-card flex-center just-between m-just-center">
+                    <!--Bean-card-->
+                    <div class="card-section">
+                        <div class="top-title">Vegetable</div>
+                        <div class="img text-center">
+                            <img class="img-product" src="./assets/images/Mung-Bean.png" alt="Mung-Bean" />
+                        </div>
+                        <div class="Product-Name-section-3 Roboto fw-700 dark">Mung Bean</div>
+                        <div class="contener-bottom flex-center just-between">
+                            <div class="price-s-3">
+                                <del class="Open-Sans fw-400 grey">$20.00</del>
+                                <p class="Open-Sans fw-900 dark">$11.00</p>
+                            </div>
+                            <img src="./assets/images/Star.png" alt="Star" />
+                        </div>
+                    </div>
+                    <!--Hazelnuts-card-->
+                    <div class="card-section">
+                        <div class="top-title">Vegetable</div>
+                        <div class="img-s-3 text-center">
+                            <img class="img-product" src="./assets/images/Brown-Hazelnut.png" alt="Brown-Hazelnut" />
+                        </div>
+                        <div class="Product-Name-section-3 Roboto fw-700 dark">Brown Hazelnut</div>
+                        <div class="contener-bottom flex-center just-between">
+                            <div class="price-s-3">
+                                <del class="Open-Sans fw-400 grey">$20.00</del>
+                                <p class="Open-Sans fw-900 dark">$12.00</p>
+                            </div>
+                            <img src="./assets/images/Star.png" alt="Star" />
+                        </div>
+                    </div>
+                    <!--Onion-->
+                    <div class="card-section">
+                        <div class="top-title">Vegetable</div>
+                        <div class="img-s-3 text-center">
+                            <img class="img-product" src="./assets/images/Onion.png" alt="Onion" />
+                        </div>
+                        <div class="Product-Name-section-3 Roboto fw-700 dark">Onion</div>
+                        <div class="contener-bottom flex-center just-between">
+                            <div class="price-s-3">
+                                <del class="Open-Sans fw-400 grey">$20.00</del>
+                                <p class="Open-Sans fw-900 dark">$17.00</p>
+                            </div>
+                            <img src="./assets/images/Star.png" alt="Star" />
+                        </div>
+                    </div>
+                    <!--Cabbage-->
+                    <div class="card-section">
+                        <div class="top-title">Vegetable</div>
+                        <div class="img-s-3 text-center">
+                            <img class="img-product" src="./assets/images/Cabbage.png" alt="Cabbage" />
+                        </div>
+                        <div class="Product-Name-section-3 Roboto fw-700 dark">Cabbage</div>
+                        <div class="contener-bottom flex-center just-between">
+                            <div class="price-s-3">
+                                <del class="Open-Sans fw-400 grey">$20.00</del>
+                                <p class="Open-Sans fw-900 dark">$17.00</p>
+                            </div>
+                            <img src="./assets/images/Star.png" alt="Star" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===================================section-5=================================-->
+        <div class="section-5 relative">
+            <div class="section-5-sub h-100">
+                <div class="section-5-text relative">
+                    <!--main-title section-5-->
+                    <h4 class="title-sm section-title-green ">Eco Friendly</h4>
+                    <h1 class="title-big">Econis is a Friendly Organic Store</h1>
+                    <div class="content flex flex-direction">
+                        <!--text-1 section-5-->
+                        <div class="section5-text-content">
+                            <p class="dark Roboto fs-20 fw-500">Start with Our Company First</p>
+                            <p class="text-p">Sed ut perspiciatis unde omnis iste natus error
+                                sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.</p>
+                        </div>
+                        <!--text-2 section-5-->
+                        <div class="section5-text-content">
+                            <p class="dark Roboto fs-20 fw-500">Learn How to Grow Yourself</p>
+                            <p class="text-p">Sed ut perspiciatis unde omnis iste natus error
+                                sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.</p>
+                        </div>
+                        <!--text-3 section-5-->
+                        <div class="section5-text-content">
+                            <p class="dark Roboto fs-20 fw-500">Farming Strategies of Today</p>
+                            <p class="text-p">Sed ut perspiciatis unde omnis iste natus error
+                                sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--============================section-6==========================================-->
+        <section class="section-6 container flex just-between flex-wrap m-just-center" style="gap: 19px;">
+            <!--Organic-food-->
+            <div class="relative"><img src="./assets/images/section6-image1.jpg" alt="organic food" class="w-100">
+                <p class="center bg-white dark fs-18 fw-500 flex-center white-space">Organic Food</p>
+            </div>
+            <!--Organic-juice-->
+            <div class="relative"><img src="./assets/images/section6-image2.jpg" alt="organic juice" class="w-100">
+                <p class="center bg-white dark fs-18 fw-500 flex-center white-space">Organic juice</p>
+            </div>
+            <!--Nuts-Cookis-->
+            <div class="relative"><img src="./assets/images/section6-image3.jpg" alt="nuts cookis" class="w-100">
+                <p class="center bg-white dark fs-18 fw-500 flex-center white-space">Nuts Cookis</p>
+            </div>
+        </section>
+        <!--=====================================Newsletter-Section======================================-->
+        <section class="news-letter container flex just-between align-items-center">
+            <!--main-title news-latter-->
+            <div class="news-letter-text Roboto white fs-40 fw-900">
+                <h1 class="Roboto">Subscribe to our Newsletter</h1>
+            </div>
+            <!--form-->
+            <div class="email-form text-center">
+                <form action="">
+                    <input type="email" placeholder="Your Email Address" class="border-none outline-none">
+                    <button class="bg-black white Roboto fs-20 fw-700 border-none pointer" style="margin-top: 10px;">
+                        Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--====================================footer===========================================-->
+    <footer>
+        <!--========================main-footer======================================-->
+        <div class="main-footer flex just-around w-100"
+            style="padding: 0 70px; padding-bottom: 100px; border-bottom: 1px solid #d4d4d4;">
+            <!--==================footer-contact================-->
+            <div class="footer-Contact-Us text-right padding-t-70 m-text-center">
+                <h1 class="Roboto fs-28 fw-700 dark">Contact Us</h1>
+                <div class="contact-info padding-t-32" style="line-height: 25px;">
+                    <h2 class="gray fs-20 fw-700">Email</h2>
+                    <p class="gray fs-16 fw-400">needhelp@Organia.com</p>
+                </div>
+                <div class="contact-info padding-t-32" style="line-height: 25px;">
+                    <h2 class="gray fs-20 fw-700">Phone</h2>
+                    <p class="gray fs-16 fw-400">666 888 888</p>
+                </div>
+                <div class="contact-info padding-t-32" style="line-height: 25px;">
+                    <h2 class="gray fs-20 fw-700">Address</h2>
+                    <p class="gray fs-16 fw-400">88 road, broklyn street, USA</p>
+                </div>
+            </div>
+            <!--==============footer-about=================-->
+            <div class="About padding-t-70  m-border-none" style=" display: flex; flex-direction: column;">
+                <div class="flex align-items-center align-center" style="gap: 5px;">
+                    <img src="./assets/images/Logo.png" alt="logo">
+                    <span class="Roboto blue fs-32 fw-700">Organick</span>
+                </div>
+                <div class="About-text text-center gray fs-16 fw-400" style="line-height: 165%; padding-top: 23px;">
+                    <p class="align-center">Simply dummy text of the printing and typesetting <br>industry.</p>
+                    <p class="align-center">Lorem Ipsum simply dummy text of the printing</p>
+                </div>
+                <ul class="footer-social-icons flex list-none align-center" style="padding-top: 50px; gap: 15px;">
+                    <li><a href="#www.instagram.com"><img src="./assets/images/1.svg" alt="insta-icon"></a></li>
+                    <li><a href="#www.facebook.com"><img src="./assets/images/2.svg" alt="facebook-icon"></a></li>
+                    <li><a href="#www.twitter.com"><img src="./assets/images/3.svg" alt="twitter-icon"></a></li>
+                    <li><a href="#www.pistersat.com"><img src="./assets/images/4.svg" alt="pintersat-icon"></a></li>
+                </ul>
+            </div>
+            <!--=======footer-utility-pages==========-->
+            <div class="Utility-Pages padding-t-70 m-border-none m-text-center">
+                <h1 class="Roboto fs-28 fw-700 dark text-left m-text-center">Utility Pages</h1>
+                <div class="Utility-Pages-text" style="padding-top: 24px; line-height: 272.9%;">
+                    <p class="gray ">Style Guide</p>
+                    <p class="gray ">404 Not Found</p>
+                    <p class="gray ">Password Protected</p>
+                    <p class="gray ">Licences</p>
+                    <p class="gray ">Changelog</p>
+                </div>
+            </div>
+        </div>
+        <!--================================end-footer=================================-->
+        <div class="end-footer gray  text-center">
+            <p>Copyright &copy; <strong>Organick |</strong> Designed by <strong>VictorFlow</strong> Templates -
+                <br>Powered
+                by <strong>Webflow</strong>
+            </p>
+        </div>
+    </footer>
+    <!--==================================script========================================-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
